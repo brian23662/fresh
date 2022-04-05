@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return response('Hello Brian', 200);
+    return response('It works', 200);
 });
